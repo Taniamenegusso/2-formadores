@@ -1,7 +1,7 @@
    .cabecalho{
     background-color: var(--branco);
-    display: flex
-    ;
+    display: flex;
+    justify-content: space-between;
    }
    .cabeçalho__menu-hamburguer{
         width: 24px;
@@ -10,4 +10,8 @@
         display: inline-block;
         background-repeat: no-repeat;
         background-position: center;
+    
+    }
+    .container__imagem{
+        padding: 1em;
     }
